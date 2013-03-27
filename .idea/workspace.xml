@@ -71,19 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="53" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+            <state line="19" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.67469877">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dollar.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Dollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.7108434">
+            <state line="8" column="11" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -434,7 +434,11 @@
       <created>1364289351364</created>
       <updated>1364289351364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish Dollar equals function">
+      <created>1364352618332</created>
+      <updated>1364352618332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +504,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish Dollar equals function" />
+    <option name="LAST_COMMIT_MESSAGE" value="make amount private" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -515,6 +519,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="finish the share multiple number problem" />
     <MESSAGE value="finish Dollar equals function" />
+    <MESSAGE value="make amount private" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -536,16 +541,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+        <state line="8" column="11" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.7108434">
+        <state line="19" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.67469877">
           <folding />
         </state>
       </provider>
