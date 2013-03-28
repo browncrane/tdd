@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="859" selection-end="859" vertical-scroll-proportion="0.5180723">
+            <state line="37" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Money.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
       <file leaf-file-name="Dollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
       <file leaf-file-name="Franc.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,10 +129,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
       </list>
     </option>
   </component>
@@ -274,17 +274,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -487,7 +488,11 @@
       <created>1364437002362</created>
       <updated>1364437002362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Using factory to Money">
+      <created>1364438548014</created>
+      <updated>1364438548014</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,7 +558,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="change equals,Dollars not equal to Franc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using factory to Money" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -571,6 +576,7 @@
     <MESSAGE value="make amount private" />
     <MESSAGE value="Equallity for all" />
     <MESSAGE value="change equals,Dollars not equal to Franc" />
+    <MESSAGE value="Using factory to Money" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -592,31 +598,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="859" selection-end="859" vertical-scroll-proportion="0.5180723">
+        <state line="37" column="47" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

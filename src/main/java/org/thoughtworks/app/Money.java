@@ -8,9 +8,11 @@ package org.thoughtworks.app;
 public abstract class Money {
 
     protected int amount;
+    protected String currency;
 
-    public Money(int amount) {
+    Money(int amount, String currency) {
         this.amount = amount;
+        this.currency = currency;
     }
 
     @Override
@@ -20,12 +22,16 @@ public abstract class Money {
     }
 
     static Money dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
     abstract Money times(int multiplier);
 
     static Money franc(int amount) {
-        return new Franc(amount);
+        return new Franc(amount, "CHF");
+    }
+
+    String currency() {
+        return currency;
     }
 }

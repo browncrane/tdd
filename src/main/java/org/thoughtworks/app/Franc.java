@@ -6,11 +6,14 @@ package org.thoughtworks.app;
  * Time: 下午5:00
  */
 public class Franc extends Money{
-    public Franc(int amount) {
-        super(amount);
+
+    private String currency;
+
+    public Franc(int amount, String currency) {
+        super(amount,currency);
     }
 
     public Money times(int multiplier) {
-        return new Franc(amount * multiplier);
+        return Money.franc(amount * multiplier);
     }
 }
