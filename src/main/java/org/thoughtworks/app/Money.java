@@ -5,7 +5,7 @@ package org.thoughtworks.app;
  * Date: 13-3-27
  * Time: 上午11:14
  */
-public class Money {
+public class Money implements Expression{
 
     protected int amount;
     protected String currency;
@@ -39,5 +39,9 @@ public class Money {
 
     public Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
+    }
+
+    public Expression plus(Money addend) {
+        return new Money(amount + addend.amount, currency);
     }
 }

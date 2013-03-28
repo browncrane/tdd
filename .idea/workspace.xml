@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="pushed time up">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" afterPath="" />
+    <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/thoughtworks/app/Dollar.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
@@ -64,13 +65,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MoneyTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.4698795">
+            <state line="35" column="31" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.43373495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expression.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="17" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,10 +121,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
       </list>
     </option>
   </component>
@@ -465,12 +495,16 @@
       <created>1364459335083</created>
       <updated>1364459335083</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Delete Dollar and Franc">
+      <created>1364460377097</created>
+      <updated>1364460377098</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-6" width="1368" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,7 +565,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushed time up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Dollar and Franc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -552,6 +586,7 @@
     <MESSAGE value="Using factory to Money" />
     <MESSAGE value="Change the times and constructor" />
     <MESSAGE value="pushed time up" />
+    <MESSAGE value="Delete Dollar and Franc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -568,15 +603,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" />
+        <state line="25" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.70422536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.4698795">
+        <state line="35" column="31" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.43373495">
+          <folding />
         </state>
       </provider>
     </entry>
