@@ -5,7 +5,7 @@ package org.thoughtworks.app;
  * Date: 13-3-27
  * Time: 上午11:14
  */
-public class Money {
+public abstract class Money {
 
     protected int amount;
 
@@ -17,5 +17,15 @@ public class Money {
     public boolean equals(Object object) {
         Money money = (Money) object;
         return amount == money.amount && getClass().equals(money.getClass());
+    }
+
+    static Money dollar(int amount) {
+        return new Dollar(amount);
+    }
+
+    abstract Money times(int multiplier);
+
+    static Money franc(int amount) {
+        return new Franc(amount);
     }
 }

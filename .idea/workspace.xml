@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
     </list>
@@ -74,8 +76,10 @@
       <file leaf-file-name="MoneyTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="737" selection-end="737" vertical-scroll-proportion="0.27710843">
-              <folding />
+            <state line="29" column="13" selection-start="859" selection-end="859" vertical-scroll-proportion="0.5180723">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +87,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="75" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+            <state line="28" column="33" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +96,7 @@
       <file leaf-file-name="Dollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+            <state line="13" column="16" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +105,7 @@
       <file leaf-file-name="Franc.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+            <state line="12" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
       </list>
     </option>
   </component>
@@ -479,12 +483,16 @@
       <created>1364354859909</created>
       <updated>1364354859909</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change equals,Dollars not equal to Franc">
+      <created>1364437002362</created>
+      <updated>1364437002362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,7 +507,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24809742" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24809742" sideWeight="0.67320263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -584,25 +592,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" />
+        <state line="13" column="16" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" />
+        <state line="12" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="75" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="28" column="33" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="737" selection-end="737" vertical-scroll-proportion="0.27710843">
-          <folding />
+        <state line="29" column="13" selection-start="859" selection-end="859" vertical-scroll-proportion="0.5180723">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
