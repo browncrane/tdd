@@ -5,7 +5,7 @@ package org.thoughtworks.app;
  * Date: 13-3-27
  * Time: 上午11:14
  */
-public class Money implements Expression{
+public class Money implements Expression {
 
     protected int amount;
     protected String currency;
@@ -15,12 +15,12 @@ public class Money implements Expression{
         this.currency = currency;
     }
 
-    static Money dollar(int amount){
-        return new Money(amount,"USD");
+    static Money dollar(int amount) {
+        return new Money(amount, "USD");
     }
 
-    static Money franc(int amount){
-        return new Money(amount,"CHF");
+    static Money franc(int amount) {
+        return new Money(amount, "CHF");
     }
 
     @Override
@@ -42,11 +42,12 @@ public class Money implements Expression{
     }
 
     public Expression plus(Money addend) {
-        return new Sum(this,addend);
+        return new Sum(this, addend);
     }
 
     @Override
-    public Money reduce(String to) {
-        return this;
+    public Money reduce(Bank bank, String to) {
+        int rate = bank.rate(currency, to);
+        return new Money(amount / rate, to);
     }
 }

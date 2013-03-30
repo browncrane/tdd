@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Pair.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
     </list>
     <ignored path="tdd.iws" />
@@ -68,7 +69,7 @@
       <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="1" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+            <state line="74" column="1" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +80,7 @@
       <file leaf-file-name="Sum.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="37" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+            <state line="18" column="36" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.43373495">
+            <state line="19" column="37" selection-start="440" selection-end="440" vertical-scroll-proportion="0.6041308">
               <folding />
             </state>
           </provider>
@@ -97,7 +98,7 @@
       <file leaf-file-name="Expression.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+            <state line="9" column="39" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +107,16 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="20" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pair.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="17" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,9 +143,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Pair.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
       </list>
     </option>
@@ -513,7 +524,11 @@
       <created>1364462358359</created>
       <updated>1364462358359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chapter 13 Make it">
+      <created>1364632787694</created>
+      <updated>1364632787694</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,7 +594,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add simple add expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 13 Make it" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -602,6 +617,7 @@
     <MESSAGE value="pushed time up" />
     <MESSAGE value="Delete Dollar and Franc" />
     <MESSAGE value="Add simple add expression" />
+    <MESSAGE value="Chapter 13 Make it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,37 +637,46 @@
         <state line="25" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.70422536" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="1" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="20" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="9" column="39" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
+        <state line="18" column="36" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="1" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.43373495">
+        <state line="19" column="37" selection-start="440" selection-end="440" vertical-scroll-proportion="0.6041308">
           <folding />
         </state>
       </provider>
