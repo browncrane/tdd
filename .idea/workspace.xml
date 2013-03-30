@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/thoughtworks/app/Dollar.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
     </list>
@@ -68,7 +68,7 @@
       <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="31" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
+            <state line="61" column="1" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +76,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Sum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="37" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.43373495">
+            <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.43373495">
               <folding />
             </state>
           </provider>
@@ -88,7 +97,7 @@
       <file leaf-file-name="Expression.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+            <state line="9" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +106,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+            <state line="49" column="20" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Franc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java" />
@@ -175,6 +185,20 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tdd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -251,20 +275,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tdd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,6 +346,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -361,24 +389,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -499,7 +509,11 @@
       <created>1364460377097</created>
       <updated>1364460377098</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add simple add expression">
+      <created>1364462358359</created>
+      <updated>1364462358359</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,7 +523,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -524,6 +537,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -565,7 +579,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Dollar and Franc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add simple add expression" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -587,6 +601,7 @@
     <MESSAGE value="Change the times and constructor" />
     <MESSAGE value="pushed time up" />
     <MESSAGE value="Delete Dollar and Franc" />
+    <MESSAGE value="Add simple add expression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -603,37 +618,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.70422536">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.70422536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="31" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
+        <state line="61" column="1" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+        <state line="49" column="20" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.43373495">
+        <state line="9" column="33" selection-start="195" selection-end="195" vertical-scroll-proportion="0.43373495">
           <folding />
         </state>
       </provider>
