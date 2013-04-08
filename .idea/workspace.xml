@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d100c344-9994-44b8-b687-aef8a2de84fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/thoughtworks/app/MoneyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/thoughtworks/app/MoneyTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Expression.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" afterPath="$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Sum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/thoughtworks/app/MoneyTest.java" />
     </list>
     <ignored path="tdd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +101,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="1" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.67469877">
+            <state line="53" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.72289157">
               <folding />
             </state>
           </provider>
@@ -550,7 +546,11 @@
       <created>1365326209843</created>
       <updated>1365326209843</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Chapter 16 Abstraction Finally&#10;">
+      <created>1365330591369</created>
+      <updated>1365330591369</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -616,7 +616,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15 Mixed Currencies&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 16 Abstraction Finally&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -642,6 +642,7 @@
     <MESSAGE value="Chapter 13 Make it" />
     <MESSAGE value="Chapter 14 Change&#10;" />
     <MESSAGE value="Chapter 15 Mixed Currencies&#10;" />
+    <MESSAGE value="Chapter 16 Abstraction Finally&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -698,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/thoughtworks/app/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="1" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.67469877">
+        <state line="53" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.72289157">
           <folding />
         </state>
       </provider>
